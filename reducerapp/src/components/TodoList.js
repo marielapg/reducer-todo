@@ -9,7 +9,7 @@ const TodoList = () => {
 
     return (
         <div>
-            {state.todo.map(todo => (
+            {state.todos.map(todo => (
                 <Todo
                     dispatch={() => {
                         dispatch({

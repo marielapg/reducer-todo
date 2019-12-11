@@ -1,13 +1,13 @@
-// import React from 'react';
+import React from 'react';
 
 
-export const initialState = [
+export const initialState =  {todos: [
     {
     item: 'Learn about reducers',
     completed: false,
     id: 3892987589
     }
-]
+]}
 
 export const reducer = (state, action) => {
     switch (action.type) {
